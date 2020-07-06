@@ -1,0 +1,393 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.pagetitle{
+  font-size:40px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-family: cursive;
+  color:orange;
+  margin-bottom: 50px;
+  text-decoration-style: dotted;
+}
+#logo{
+	font-size:40px;
+	color: orange;
+  text-shadow: 1px 1px 1px white;
+  margin-left: 5px;
+  font-weight: bolder;
+
+}
+#home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#home h1{
+  color: white;
+  font-size:80px;
+  background-color: black;
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+#main-nav{
+	display: flex;
+  position: sticky;
+  top: 0;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+  background:black;
+border-bottom:1px inset white;
+}
+.sticky{
+  position:
+}
+
+#navbar{
+	display: flex;
+}
+#navbar li{
+	list-style-type: none;
+	background-color: black;
+	padding: 5px;
+	margin: 20px;
+	border: 5px inset white;
+  border-radius: 40px;
+}
+#navbar li:hover{
+	background-color:grey;
+  color: white;
+}
+
+#navbar li a{
+  color: white;
+	font-size: 20px;
+	font-family: cursive;
+	text-decoration: none;
+}
+#navbar li a:hover{
+  color: white;
+}
+
+#home{
+  height: 100vh;
+  background-image:url(../img/bgcode.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  border-bottom:2px inset white;
+
+
+  /*clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 60% 100%, 0 90%);*/
+
+}
+/*About us page begins now*/
+#aboutus{
+	background-color: black;
+	height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom:1px inset white;
+
+}
+#about{
+  display: flex;
+}
+#about img{
+  border-radius: 500px;
+  margin:10px;
+  border: 5px inset white;
+  transition: transform .2s;
+
+
+}
+#about img:hover{
+   transform: scale(1.1); 
+
+}
+#description h1{
+  color:white;
+  text-align: left;
+  font-size: 30px;
+  margin-left:10px;
+  text-decoration: none;
+}
+
+#description h3{
+  color:green;
+  font-size: 20px;
+  margin-left:10px;
+
+}
+#description p{
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+  margin-left:10px;
+  margin-right: 10px;
+}
+
+
+
+/*services section*/
+#services{
+  height:80vh;
+  background-color: black;
+    border-bottom:1px inset white;
+
+}
+#our-serv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: transform .5s ease;
+
+
+
+}
+#our-serv :hover{
+    transform: scale(1.08); 
+
+}
+
+.service-box{
+     background: white;
+     padding: 30px;
+     border: 3px inset white;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     -webkit-box-shadow: -5px 4px 21px -1px rgba(0,0,0,0.91); 
+     box-shadow: -5px 4px 21px -1px rgba(0,0,0,0.91);
+     border-radius: 10px;
+
+
+
+}
+.service-box h1{
+   font-size: 30px;
+   color: black;
+   text-align: center;
+    text-shadow: 1px 1px 0px lightgrey;
+
+}
+.service-box img{
+  width: 300px;
+  height: 300px;
+  
+ 
+}
+/*Our -courses*/
+#our-courses{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border-bottom: 1px inset white;
+}
+
+
+#courses{
+  display: flex;
+
+
+}
+.course-details{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:20px;
+  padding:10px;
+  border: 2px inset white;
+  -webkit-box-shadow: -5px 4px 8px -1px rgba(0,0,0,0.91); 
+box-shadow: -5px 4px 8px -1px rgba(0,0,0,0.91);
+
+}
+.course-details h1{
+  text-align: center;
+  font-size:20px;
+
+}
+.course-details p{
+  text-align: justify;
+  color: black;
+
+}
+
+.course-details img{
+  width: 200px;
+  height: 200px;
+}
+#btn{
+  background-color: #FF8E1C;
+  border: 2px inset green;
+  padding:5px;
+
+}
+#btn:hover{
+  background-color: orange;
+  border: 2px inset #FF7441;
+}
+
+
+
+#contact-us{
+ display: flex;
+ background-color: black;
+ align-items: center;
+}
+#company-details a{
+  font-size:30px;
+  margin-right:10px;
+  margin-left:10px;
+  color:white;
+}
+
+
+.form_input{
+  margin-bottom: 15px;
+}
+.form_input input[type="text"]{
+  width: 250px;
+  padding: 12px 20px;
+border: solid 1px grey; 
+  border-radius:1px;
+}
+.form_input input[type="email"]{
+  width: 250px;
+  padding: 12px 20px;
+  border: solid 1px grey; 
+  border-radius:1px;
+}
+.form_input textarea{
+  width: 250px;
+  padding: 12px 20px;
+  height: 80px;
+  border: solid 1px grey; 
+  border-radius:1px;
+  resize: none;
+}
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+#contact-form {
+  border-radius: 0px;
+  background-color: #f2f2f2;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 500px;
+  padding-left:40px;
+  padding-right:40px;
+
+}
+#contact-us h1{
+ text-align: center;
+ color: white;
+}
+#company-details h3,p{
+ color: white;
+}
+#contact-form h1{
+ color: black;
+}
+#map iframe{
+  width: 450px;
+  height: 500px;
+  margin: 10px;
+}
+
+
+
+/*This is for the respomsiveness of the webpage*/
+@media only screen and (max-width: 600px) {
+  #home{
+    height:80vh;
+  }
+	#main-nav{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+}
+#navbar{
+	flex-direction:row;
+  flex-wrap: nowrap;
+}
+#navbar li{
+  padding: 5px;
+  margin: 8px;
+  font-size:18px;
+  border: 2px inset white;
+  border-radius: 40px;
+}
+#navbar li:hover{
+  background-color: grey;
+  border: 2px inset white;
+  border-radius: 40px;
+}
+#about{
+  flex-direction: column;
+}
+#description h1{
+  text-align: center;
+}
+
+#description h3{
+  text-align: center;
+}
+#our-serv{
+  flex-direction: column;
+  justify-content: space-between;
+}
+.service-box img{
+  width: 200px;
+  height: 200px;
+}
+#services{
+  height: auto;
+}
+
+#courses{
+  flex-direction:column;
+}
+.service-box{
+  width:300px;
+  height: 300px;
+  margin-top:20px;
+}
+#contact-us{
+  flex-direction: column;
+}
+#company-details{
+ margin:20px;
+}
+#home h1{
+  font-size:30px;
+}
+.service-box{
+  margin-bottom:20px;
+}
+#course-details p{
+  color: black;
+}
+.pagetitle{
+  font-size:30px;
+}
+
+}
